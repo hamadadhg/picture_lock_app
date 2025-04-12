@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "156644037566",
+    "project_id": "hide-app-f0e98",
+    "storage_bucket": "hide-app-f0e98.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156644037566:android:4c2f2a2f3b50966e471fef",
+        "android_client_info": {
+          "package_name": "com.example.hide_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgB9ZKuUIwfFJjhPxRiS3IibZfGUY1bEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
