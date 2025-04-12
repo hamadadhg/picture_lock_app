@@ -1,3 +1,4 @@
+/*
 abstract class AssetLotties {
   static const String sleepEmojy = 'assets/lotties/sleep_emoji.json';
   static const String wakeUpEmojy = 'assets/lotties/wake_up_emoji.json';
@@ -9,3 +10,4 @@ abstract class AssetLotties {
       'assets/lotties/loading_animation.json';
   static const String emptyAnimation = 'assets/lotties/empty_animation.json';
 }
+*/

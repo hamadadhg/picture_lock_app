@@ -1,3 +1,4 @@
+/*
 import 'dart:io';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hide_app/core/utils/constants/string_variables.dart';
@@ -55,3 +56,4 @@ class HideImagesCubit extends Cubit<HideImagesState> {
     //.remove() will take element(value this element in this List(so you have List from image, so should take path(asset/..) to this image you want delete it)) from you, but .removeAt(index) will take index this element from you
   }
 }
+*/

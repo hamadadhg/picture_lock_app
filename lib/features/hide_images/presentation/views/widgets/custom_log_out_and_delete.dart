@@ -1,3 +1,4 @@
+/*
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:hide_app/core/utils/styles/style_to_colors.dart';
@@ -27,3 +28,4 @@ class CustomLogOutAndDelete extends StatelessWidget {
     );
   }
 }
+*/
