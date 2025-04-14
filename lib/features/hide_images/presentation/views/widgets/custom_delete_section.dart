@@ -14,15 +14,14 @@ class CustomDeleteSection extends StatelessWidget {
         bottom: size.height * 0.02,
         right: size.width * 0.025,
       ),
-      child: Positioned(
-        child: CustomFloatingActionButton(
-          imagePicked: (image) {
-            context.read<HideImagesCubit>().addImages(image);
-          },
-        ),
+      child: CustomFloatingActionButton(
+        imagePicked: (image) {
+          context.read<HideImagesCubit>().addImages(image);
+        },
       ),
     );
     //i use CustomFloatingActionButton here instead of HomeView because here i can give it(storeIma..), don't forget good to put List.. in folder lists but if the elements is constant not unconstant because you need to rebuild the elements to show the changes on them
     //storeImageFromGalleryInsideList method, it's need to take the image path from CustomFloatingActionButton(and this operation it's work from(imagePicked: storeImageFromGalleryInsideList,)), this method add images to List and give them to CustomGridView to display them on ui
+    //not correct to Widget(child: Positioned(child: Widget(..))) and sure all that inside Stack widget, you should use Positioned inside Stack directly not wrap it inside another widget
   }
 }

@@ -1,18 +1,30 @@
 import 'dart:io';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hide_app/core/utils/constants/string_variables.dart';
+import 'package:hide_app/core/utils/helpers/hive_user_box_helper.dart';
 import 'package:hide_app/features/hide_images/presentation/managers/cubits/hide_images_state.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 class HideImagesCubit extends Cubit<HideImagesState> {
+  final List<File> listToStoreImages = [];
+  //this List will contain on images from gallery(so the path is file)
+  late Box getAndPutDataInBox;
   HideImagesCubit() : super(InitialHideImagesState()) {
+    createSpecialBoxForThisAccount();
+  }
+  Future<void> createSpecialBoxForThisAccount() async {
+    final box = await openUserBoxHelper(baseOnBoxName: kOpenBox);
+    if (box == null) {
+      //you should check for safely
+      return;
+    }
+    getAndPutDataInBox = box;
+    //getAndPutDataInBox: you call the box to get(get data you save them in the box) and put(put data in the box, to save them and to enable you when you get out from app and get in again to see the data)
+    //i open special box and assign it to getAndPutDataInBox, to can control in this box
     loadImagesFromHive();
     //when the Constructor(HideImagesCubit) is create so you make the method(loadImagesFromHive) to load images(you hidden them in the past)
   }
-  final List<File> listToStoreImages = [];
-  //this List will contain on images from gallery(so the path is file)
-  final Box getAndPutDataInBox = Hive.box(kOpenBox);
-  //you call the box to get(get data you save them in the box) and put(put data in the box, to save them and to enable you when you get out from app and get in again to see the data)
+
   void loadImagesFromHive() {
     //in this method you get on images you saved them in Hive
     final List<dynamic> paths = getAndPutDataInBox.get(

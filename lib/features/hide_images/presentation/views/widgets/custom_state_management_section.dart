@@ -1,7 +1,8 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hide_app/core/utils/styles/style_to_texts.dart';
+import 'package:hide_app/core/utils/classes/asset_lotties/asset_lotties.dart';
+import 'package:hide_app/core/utils/components/lotties_component.dart';
 import 'package:hide_app/features/hide_images/presentation/managers/cubits/hide_images_cubit.dart';
 import 'package:hide_app/features/hide_images/presentation/managers/cubits/hide_images_state.dart';
 import 'package:hide_app/features/hide_images/presentation/views/widgets/custom_grid_view.dart';
@@ -21,10 +22,7 @@ class CustomStateManagementSection extends StatelessWidget {
         builder: (context, state) {
           if (state is InitialHideImagesState) {
             return Center(
-              child: Text(
-                'No hide images to yet',
-                style: StyleToTexts.textStyleExtraBold25(context: context),
-              ),
+              child: LottiesComponent(animation: AssetLotties.emptyEmoji),
             );
           } else {
             List<File> imagesFromGallery =
