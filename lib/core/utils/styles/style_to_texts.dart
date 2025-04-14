@@ -38,4 +38,12 @@ abstract class StyleToTexts {
       fontSize: responsiveTextHelper(fontSize: 25, context: context),
     );
   }
+
+  static TextStyle textStyleExtraBold25({required BuildContext context}) {
+    return TextStyle(
+      color: StyleToColors.purpleColor,
+      fontWeight: FontWeight.w900,
+      fontSize: responsiveTextHelper(fontSize: 25, context: context),
+    );
+  }
 }

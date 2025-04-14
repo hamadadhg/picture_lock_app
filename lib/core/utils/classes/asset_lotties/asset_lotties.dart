@@ -7,5 +7,4 @@ abstract class AssetLotties {
   static const String staringEmoji = 'assets/lotties/staring_emoji.json';
   static const String loadingAnimation =
       'assets/lotties/loading_animation.json';
-  static const String emptyAnimation = 'assets/lotties/empty_animation.json';
 }
