@@ -1,4 +1,3 @@
-/*
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hide_app/core/utils/classes/asset_lotties/asset_lotties.dart';
@@ -142,4 +141,3 @@ class _CustomRegisterViewBodyState extends State<CustomRegisterViewBody> {
     );
   }
 }
-*/

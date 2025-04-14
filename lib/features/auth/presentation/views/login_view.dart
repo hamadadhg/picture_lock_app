@@ -1,4 +1,3 @@
-/*
 import 'package:flutter/material.dart';
 import 'package:hide_app/features/auth/presentation/views/widgets/custom_login_view_body.dart';
 
@@ -13,4 +12,3 @@ class LoginView extends StatelessWidget {
     );
   }
 }
-*/

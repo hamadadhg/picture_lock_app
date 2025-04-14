@@ -1,4 +1,3 @@
-/*
 import 'dart:io';
 
 abstract class HideImagesState {}
@@ -9,4 +8,3 @@ class UpdateOnHideImagesState extends HideImagesState {
   final List<File> storedImages;
   UpdateOnHideImagesState({required this.storedImages});
 }
-*/

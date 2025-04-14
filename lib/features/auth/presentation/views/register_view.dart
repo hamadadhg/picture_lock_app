@@ -1,4 +1,3 @@
-/*
 import 'package:flutter/material.dart';
 import 'package:hide_app/features/auth/presentation/views/widgets/custom_register_view_body.dart';
 
@@ -13,4 +12,3 @@ class RegisterView extends StatelessWidget {
     );
   }
 }
-*/

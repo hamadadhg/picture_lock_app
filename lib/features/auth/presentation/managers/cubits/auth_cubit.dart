@@ -1,4 +1,3 @@
-/*
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hide_app/features/auth/presentation/managers/cubits/auth_state.dart';
@@ -66,4 +65,3 @@ class AuthCubit extends Cubit<AuthState> {
     }
   }
 }
-*/

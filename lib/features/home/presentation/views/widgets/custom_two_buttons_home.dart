@@ -1,4 +1,3 @@
-/*
 import 'package:flutter/material.dart';
 import 'package:hide_app/core/utils/components/text_button_logs_component.dart';
 import 'package:hide_app/core/utils/constants/string_variables.dart';
@@ -32,4 +31,3 @@ class CustomTwoButtonsHome extends StatelessWidget {
     );
   }
 }
-*/

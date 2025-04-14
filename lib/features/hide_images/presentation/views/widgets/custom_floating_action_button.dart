@@ -1,4 +1,3 @@
-/*
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:hide_app/core/utils/styles/style_to_colors.dart';
@@ -38,4 +37,3 @@ class CustomFloatingActionButton extends StatelessWidget {
     );
   }
 }
-*/

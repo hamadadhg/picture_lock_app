@@ -1,4 +1,3 @@
-/*
 import 'package:flutter/material.dart';
 import 'package:hide_app/core/utils/components/text_button_logs_component.dart';
 import 'package:hide_app/core/utils/styles/style_to_colors.dart';
@@ -28,4 +27,3 @@ class CustomTwoButtonsAuth extends StatelessWidget {
     );
   }
 }
-*/

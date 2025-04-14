@@ -1,4 +1,3 @@
-/*
 import 'package:flutter/material.dart';
 import 'package:hide_app/core/utils/styles/style_to_colors.dart';
 
@@ -8,4 +7,3 @@ UnderlineInputBorder outlineInputBorderHelper() {
     borderSide: BorderSide(color: StyleToColors.greyColor.withAlpha(125)),
   );
 }
-*/

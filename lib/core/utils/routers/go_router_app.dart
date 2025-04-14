@@ -1,4 +1,3 @@
-/*
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hide_app/core/utils/constants/string_variables.dart';
@@ -43,4 +42,3 @@ class GoRouterApp {
     ],
   );
 }
-*/
