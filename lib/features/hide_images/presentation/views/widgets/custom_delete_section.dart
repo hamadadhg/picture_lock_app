@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hide_app/features/hide_images/presentation/managers/cubits/hide_images_cubit.dart';
@@ -25,3 +26,4 @@ class CustomDeleteSection extends StatelessWidget {
     //not correct to Widget(child: Positioned(child: Widget(..))) and sure all that inside Stack widget, you should use Positioned inside Stack directly not wrap it inside another widget
   }
 }
+*/

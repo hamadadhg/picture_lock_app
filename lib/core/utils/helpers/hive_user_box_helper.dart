@@ -1,3 +1,4 @@
+/*
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
@@ -13,3 +14,4 @@ Future<Box?> openUserBoxHelper({required String baseOnBoxName}) async {
   //so when you use this account also you open this box(special name), because the box(Hive) contain on images
   return await Hive.openBox(boxName);
 }
+*/

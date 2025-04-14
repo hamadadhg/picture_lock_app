@@ -1,3 +1,4 @@
+/*
 // ignore_for_file: use_build_context_synchronously
 import 'package:flutter/material.dart';
 import 'package:hide_app/core/utils/helpers/go_go_router_helper.dart';
@@ -40,3 +41,4 @@ class CustomTextButtonLogOut extends StatelessWidget {
     );
   }
 }
+*/

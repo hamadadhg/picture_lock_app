@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
@@ -10,3 +11,4 @@ class LottiesComponent extends StatelessWidget {
     return Lottie.asset(animation, height: height * 0.6);
   }
 }
+*/

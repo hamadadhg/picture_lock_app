@@ -1,3 +1,4 @@
+/*
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
@@ -17,3 +18,4 @@ Future<void> pickImagesFromGalleryHelper({
     //store the images in this List(in CustomHomeViewBody), now you can take the images from List and give them to CustomGridView and CustomCard
   }
 }
+*/
